@@ -416,6 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CIpacking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xw.CIpacking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +431,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Shenzhen Duanpingkuai Internet Nationwide Financial Services Inc. (W9G4R5M6EW)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shenzhen Duanpingkuai Internet Nationwide Financial Services Inc. (W9G4R5M6EW)";
 				INFOPLIST_FILE = CIpacking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xw.CIpacking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,6 +504,7 @@
 				754EE8441D55B6C200606C1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		754EE8451D55B6C200606C1F /* Build configuration list for PBXNativeTarget "CIpackingTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +513,7 @@
 				754EE8471D55B6C200606C1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		754EE8481D55B6C200606C1F /* Build configuration list for PBXNativeTarget "CIpackingUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +522,7 @@
 				754EE84A1D55B6C200606C1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
